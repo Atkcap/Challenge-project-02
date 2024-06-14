@@ -11,6 +11,11 @@ body {
     font-size: 1.6rem;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 :root {
     --text-color-light-gray: #7d8188;
     --text-color-black-gray: #575d5e;
@@ -531,8 +536,8 @@ img {
 
 /* ===== About ===== */
 .about {
-    margin: 49px 0 30px;
-    padding: 100px 0 49px;
+    margin-bottom: 30px;
+    padding: 149px 0 49px;
 }
 
 .about__container {
@@ -883,7 +888,7 @@ img {
 
 /* ===== Blog ===== */
 .blog {
-    margin-top: 140px;
+    padding-top: 140px;
 }
 
 .blog__container {
@@ -958,8 +963,8 @@ img {
 
 /* ===== Article ===== */
 .article {
-    margin-top: 82px;
-    padding: 102px 0;
+    margin-top: 50px;
+    padding: 134px 0 102px;
 }
 
 .article__container {
